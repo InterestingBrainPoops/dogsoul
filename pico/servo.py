@@ -10,7 +10,7 @@ right.freq(50)
 MIN_DUTY = 1128
 MAX_DUTY = 8559
 
-DUTY_PER_DEG = (MAX_DUTY - MIN_DUTY) / 180
+DUTY_PER_DEG = (MAX_DUTY - MIN_DUTY) / 180 
 class Vector:
     def __init__(self, x,y):
         self.x = x
